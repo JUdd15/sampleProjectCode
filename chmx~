@@ -1,0 +1,13 @@
+#!/bin/bash
+#Name : Jalal Uddin
+#Student ID : U1366889
+#Module : Studio
+#Date :10/12/13
+#Command: This command takes the filename as its argument and makes those files executeable to all users.
+#Comment: The command was created with the idea in mind to discern if the file exists, therefore a condition was created to find this out.
+
+if [ -f $chmx ];then
+echo File is executeable
+else
+echo File does not exist
+fi
