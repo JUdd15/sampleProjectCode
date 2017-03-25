@@ -1,0 +1,15 @@
+#!/bin/bash
+#Name : Jalal Uddin
+#Student ID: U1366889
+#Module : Studio1
+#Date : 10/12/13
+#Command : Takes a version of rm which only copies the file to a waste directory- a waste directory needs to be created
+#Comments : The command to code it was made simple by adding a woldcard value to search for specific values using*.
+
+cp file* waste
+
+if [ -f $del ];then 
+echo File has been sent to waste
+else 
+echo There is no file to send to waste
+fi
